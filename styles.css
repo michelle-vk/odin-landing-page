@@ -1,0 +1,59 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-section .random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section .main-container {
+  display: flex;
+}
+
+.main-section .main-container img {
+  width: 150px;
+}
+
+.main-section .img-container {
+  width: 150px;
+  margin: 0 40px;
+}
+
+.quote-section {
+  text-align: center;
+}
+
+.registration-section {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.footer {
+  text-align: center;
+}
