@@ -22,6 +22,36 @@ body > header {
   justify-content: space-between;
 }
 
+header,
+footer,
+.hero-container {
+  background-color: #1f2937;
+  color: white;
+}
+
+figure {
+  background-color: #e5e7eb;
+}
+
+.header-links {
+  list-style-type: none;
+}
+
+.header-logo,
+.header-links li a {
+  text-decoration: none;
+}
+
+.header-logo,
+.hero-title {
+  color: #f9faf8;
+}
+
+.header-links li a,
+.hero-text {
+  color: #e5e7eb;
+}
+
 .hero-container {
   display: flex;
   justify-content: center;
@@ -36,6 +66,10 @@ body > header {
   flex-direction: column;
   align-items: center;
   flex: 1;
+}
+
+.main-section > h2 {
+  color: #1f2937;
 }
 
 .main-section .main-container {
@@ -53,12 +87,20 @@ body > header {
 
 .quote-section {
   text-align: center;
+  color: #1f2937;
 }
 
-.registration-section {
+.registration-section,
+.registration-section button {
   display: flex;
   justify-content: center;
   gap: 150px;
+  background-color: #3882f6;
+  color: white;
+}
+
+.registration-section button {
+  border: 1px solid white;
 }
 
 body > footer {
