@@ -17,7 +17,12 @@ ul {
   gap: 12px;
 }
 
-body > header {
+header {
+  display: flex;
+  justify-content: center;
+}
+
+body > header > div {
   display: flex;
   justify-content: space-between;
 }
@@ -30,7 +35,16 @@ footer,
 }
 
 figure {
+  display: flex;
+  justify-content: center;
   background-color: #e5e7eb;
+  text-align: center;
+  color: #1f2937;
+  width: 100%;
+}
+
+body > footer {
+  text-align: center;
 }
 
 .header-links {
@@ -55,9 +69,15 @@ figure {
 .hero-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
-.hero-container img {
+.hero-container > div {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-container > div img {
   width: 480px;
 }
 
@@ -72,7 +92,7 @@ figure {
   color: #1f2937;
 }
 
-.main-section .main-container {
+.main-section .main-container > div {
   display: flex;
 }
 
@@ -82,27 +102,41 @@ figure {
 
 .main-section .img-container {
   width: 150px;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
-.quote-section {
-  text-align: center;
-  color: #1f2937;
-}
-
-.registration-section,
-.registration-section button {
+.registration-section > div {
   display: flex;
-  justify-content: center;
-  gap: 150px;
+  justify-content: space-around;
+}
+
+.registration-section {
+  width: 1024px;
   background-color: #3882f6;
   color: white;
 }
 
-.registration-section button {
-  border: 1px solid white;
+.registration-section > div {
+  align-items: center;
 }
 
-body > footer {
-  text-align: center;
+.registration-section button {
+  background-color: inherit;
+  color: inherit;
+  height: 40px;
+}
+
+.registration-section button {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.wide-container {
+  max-width: 1024px;
+  width: 100%;
+}
+
+.small-container {
+  max-width: 825px;
+  width: 100%;
 }
