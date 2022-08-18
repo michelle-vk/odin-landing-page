@@ -3,6 +3,8 @@
 }
 
 body {
+  height: 100vh;
+  overflow: hidden;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -25,7 +27,11 @@ ul {
   justify-content: center;
 }
 
-.main-section .random-info {
+.hero-container img {
+  width: 480px;
+}
+
+.main-section {
   display: flex;
   flex-direction: column;
   align-items: center;
