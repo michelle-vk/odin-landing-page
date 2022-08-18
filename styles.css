@@ -22,12 +22,12 @@ body > header {
   justify-content: space-between;
 }
 
-hero {
+.hero-container {
   display: flex;
   justify-content: center;
 }
 
-hero img {
+.hero-container img {
   width: 480px;
 }
 
