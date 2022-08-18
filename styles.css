@@ -17,17 +17,17 @@ ul {
   gap: 12px;
 }
 
-.header {
+body > header {
   display: flex;
   justify-content: space-between;
 }
 
-.hero-container {
+hero {
   display: flex;
   justify-content: center;
 }
 
-.hero-container img {
+hero img {
   width: 480px;
 }
 
@@ -35,6 +35,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 }
 
 .main-section .main-container {
@@ -60,6 +61,6 @@ ul {
   gap: 150px;
 }
 
-.footer {
+body > footer {
   text-align: center;
 }
