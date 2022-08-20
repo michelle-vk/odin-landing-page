@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -23,6 +23,7 @@ ul {
 header {
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 body > header > div {
@@ -46,11 +47,15 @@ figure {
   width: 100%;
 }
 
+figure > div {
+  margin: 100px 0;
+}
+
 figure blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  margin-bottom: 0;
+  margin: 0px 0px 0px 38px;
 }
 
 figure blockquote p {
@@ -65,7 +70,13 @@ figure figcaption {
 }
 
 body > footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 100px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .header-links {
@@ -123,11 +134,12 @@ body > footer {
 
 .hero-container > div {
   display: flex;
+  margin: 100px 0;
   gap: 40px;
 }
 
 .hero-container > div img {
-  width: 480px;
+  width: 500px;
 }
 
 .main-section {
@@ -137,10 +149,19 @@ body > footer {
   flex: 1;
 }
 
-.main-section > h2 {
+.main-container {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.main-container > h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  text-align: center;
+  margin: 0 0 50px 0;
+  padding: 0;
+  border: 0;
 }
 
 .main-section .main-container > div {
@@ -163,12 +184,15 @@ body > footer {
 
 .registration-section {
   width: 1024px;
-  background-color: #3882f6;
-  color: white;
+  margin: 100px 0;
 }
 
 .registration-section > div {
   align-items: center;
+  padding: 30px 0;
+  border-radius: 7px;
+  background-color: #3882f6;
+  color: white;
 }
 
 .registration-button {
