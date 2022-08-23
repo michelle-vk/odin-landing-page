@@ -113,6 +113,7 @@ body > footer {
 .registration-button {
   background-color: #734200;
   color: white;
+  cursor: pointer;
   font-size: 18px;
   font-weight: 700;
   padding: 7px 27px;
