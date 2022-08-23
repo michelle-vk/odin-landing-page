@@ -101,7 +101,7 @@ body > footer {
 
 .hero-title,
 .hero-text {
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
 .header-links li a,
@@ -183,7 +183,7 @@ body > footer {
 }
 
 .main-section .img-container p {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .registration-section > div {
@@ -209,7 +209,7 @@ body > footer {
 }
 
 .registration-info h2 {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .registration-info p {
