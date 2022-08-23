@@ -1,13 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
 
-* {
-  border: 1px solid red;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  /* overflow: hidden; */
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -24,6 +19,7 @@ header {
   display: flex;
   justify-content: center;
   flex-shrink: 0;
+  padding-top: 25px;
 }
 
 body > header > div {
@@ -152,6 +148,7 @@ body > footer {
 .main-container {
   margin-bottom: 100px;
   margin-top: 50px;
+  border: 1px solid red;
 }
 
 .main-container > h2 {
@@ -166,15 +163,18 @@ body > footer {
 
 .main-section .main-container > div {
   display: flex;
+  border: 1px solid red;
 }
 
 .main-section .main-container img {
   width: 150px;
+  border: 1px solid red;
 }
 
 .main-section .img-container {
   width: 150px;
   margin: 0 20px;
+  border: 1px solid red;
 }
 
 .registration-section > div {
