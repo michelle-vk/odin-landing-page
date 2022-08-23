@@ -111,6 +111,10 @@ body > footer {
   font-size: 18px;
 }
 
+.hero-button {
+  border: none;
+}
+
 .hero-button,
 .registration-button {
   background-color: #3882f6;
